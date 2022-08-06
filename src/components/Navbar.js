@@ -14,7 +14,9 @@ const menuItems = [
     {
         key:'cryptocurrencies',
         icon:<FundOutlined/>,
-        label:"Cryptocurrencies"
+        label:"Cryptocurrencies",
+      
+
     },
     {
         key:'exchanges',
