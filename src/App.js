@@ -9,6 +9,7 @@ import { Cryptocurrencies } from "./components/Cryptocurrencies";
 import { CryptoDetails } from "./components/CryptoDetails";
 import { News } from "./components/News";
 
+
 export const App = () => {
   return (
     <div className="app">
