@@ -9,6 +9,7 @@ import { Cryptocurrencies } from "./components/Cryptocurrencies";
 import { CryptoDetails } from "./components/CryptoDetails";
 import { News } from "./components/News";
 
+
 export const App = () => {
   return (
     <div className="app">
@@ -46,7 +47,8 @@ export const App = () => {
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+  
             <Link to="/news">News</Link>
           </Space>
         </div>
