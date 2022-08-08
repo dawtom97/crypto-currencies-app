@@ -3,7 +3,7 @@ import millify from "millify";
 import { Typography, Row, Col, Statistic } from "antd";
 import { useGetCryptosQuery } from "../services/cryptoApi";
 import { Cryptocurrencies } from "./Cryptocurrencies";
-import {News} from './News';
+import { News } from "./News";
 
 export const Homepage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
@@ -35,8 +35,8 @@ export const Homepage = () => {
         </Col>
         <Col span={12}>
           <Statistic
-            title="Total 24h volume"
-            value={millify(globalStats.total24hVolume)}
+            title="Total 24h 24hVolume"
+            value={millify(globalStats.total24h24hVolume)}
           />
         </Col>
         <Col span={12}>
@@ -54,7 +54,7 @@ export const Homepage = () => {
           <Typography.Link to="/cryptocurrencies">Show More</Typography.Link>
         </Typography.Title>
       </div>
-      <Cryptocurrencies simplified/>
+      <Cryptocurrencies simplified />
       <div className="home-heading-container">
         <Typography.Title level={2} className="home-title">
           Latest Crypto News
