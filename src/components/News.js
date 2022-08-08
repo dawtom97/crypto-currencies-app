@@ -19,7 +19,7 @@ export const News = ({ simplified }) => {
   });
 
   if (!cryptoNews?.value) return "Loading...";
-  console.log(cryptoNews.value);
+ // console.log(cryptoNews.value);
   return (
     <Row gutter={[24, 24]}>
       {!simplified ? (
